@@ -11,4 +11,39 @@ body {
 	border-width:1em;
 }
 
+@media (min-width: 55em) {
+body,
+ {
+	  font-size:160%;
+  }
+}
+
+@media (min-width: 61em) {
+body {
+	  font-size:180%;
+  }
+  
+ h2 {
+	 font-size:35px;
+}
+
+}
+
+@media (min-width: 80em) {
+body {
+	  font-size:200%;
+  }
+ h2 {
+	 font-size:40px;
+  
+}
+
+@media (min-width: 180em) {
+body {
+	  font-size:200%;
+  }
+}
+
+
+
 
