@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <!--
+   The sitemap.xml file should be in the same location as your index.html
+   At the root of your domain:domain.com/sitemap.xml
+   -->
+   
+   <url>
+   <!--
+   <loc> - Location, URL
+   The Full URL starting with http://
+   REQUIRED
+   -->
+      <loc>http://mccauleysylvia.github.io/large-data-website</loc>
+	  <!-- 
+	  <lastmod> - Last Modified date
+	  OPTIONAL
+	  -->
+      <lastmod>2013-10-17</lastmod>
+	    <!-- 
+	  <changefreq> - Change frequency
+	  - never
+	  - yearly
+	  - monthly
+	  - weekly
+	  - daily
+	  - hourly
+	  - always
+	  
+	  OPTIONAL	  
+	  -->
+      <changefreq>Weekly</changefreq>
+	  <!--
+	  <priority> - How important this page is in the website
+	  0.1 - 1.0
+	  OPTIONAL
+	  Default: 0.5
+	  -->
+      <priority>1.0</priority>
+   </url>
+   
+    <url>
+
+      <loc>http://mccauleysylvia.github.io/large-data-website</loc>
+	
+   </url>
+
+</urlset> 

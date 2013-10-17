@@ -13,7 +13,7 @@ Natural, clean, healthy, skin
 
 Adaptive content
 
-Ditch the drugstore. Get clean the healthy way by making your own natural skincare products.
+Ditch the drugstore. Get clean and healthy skin the natural way by making your own skincare products.
 
 Make your own healthy, natural skincare products. 
 
