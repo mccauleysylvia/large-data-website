@@ -1077,9 +1077,9 @@ pre code {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 900px) {
   .container {
-    max-width: 970px;
+    max-width: 900px;
   }
   .col-md-1,
   .col-md-2,
