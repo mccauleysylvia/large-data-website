@@ -21,6 +21,7 @@ User testing was conducted by Sylvia McCauley on October 24th, 2013 between the 
 - She clicked on the link as expected…
 - She noticed my logo isn't there
 - Responsiveness is a little awkward
+- "Do you need this at the bottom?"
 
 ### Celta Riden
 
@@ -52,3 +53,4 @@ User testing was conducted by Sylvia McCauley on October 24th, 2013 between the 
 ### Minor, Annoying, Won’t Hinder Completion
 
 - Special fonts did not show up, need to embed
+- Weird border at the bottom needs deleting
