@@ -28,7 +28,7 @@ summary {
 footer {
 	background-color:#ffffff;
 	width:100%;
-	height:50px;
+	height:75px;
 	margin-bottom:auto 0;
 	position:absolute;
 	padding-left:20px;
@@ -385,7 +385,6 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eeeeee;
 }
 
 .sr-only {
