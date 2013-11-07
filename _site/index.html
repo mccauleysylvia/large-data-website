@@ -31,7 +31,14 @@
   </head>
 
   <body>
+  <ul class="skiplinks">
+  	<li><a href="#main">Skip to banner</a></li>
+    <li><a href="#main">Skip to primary content</a></li>
+    <li><a href="#complementary">Skip to secondary content</a></li>
+ </ul>
 
+
+<nav role="navigation">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -52,19 +59,13 @@
                 <li><a href="/essential-oils.html">Chemicals in Deoderant</a></li>
               </ul>
             </li>
-                        <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Tools <b class="caret"></b></a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Oils <b class="caret"></b></a>
               <ul class="dropdown-menu">
-              	<li class="dropdown-header">Oils</li>
                 <li><a href="/essential-oils.html">About Oils</a></li>
                 <li><a href="/essential-oils.html">Carrier Oils</a></li>
                 <li><a href="/essential-oils.html">Essential Oils</a></li>
                 <li><a href="/essential-oils.html">Vegetable Oils</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Other</li>
-                <li><a href="#">Apple Cider Vinegar</a></li>
-                <li><a href="#">Aloe Vera</a></li>
-                <li><a href="#">Raw Honey</a></li>
               </ul>
             </li>
             
@@ -103,10 +104,11 @@
         </div><!--/.navbar-collapse -->
       </div>
     </div>
+ </nav>
     
         <div class="jumbotron">
       <div class="container">
-        <h1>Ditch your Chemicals.</h1>
+        <h1 id="main" role="main" role="banner">Ditch your Chemicals.</h1>
         <p>Making your own <strong>natural</strong> products can a be fun, <strong>healthy</strong> and less expensive way to take care of your skin and hair. Most of the commercial products you use on your skin, hair, face or body contain chemicals that are unhealthy and damaging. Almost all of these products can be replaced by a homemade, <strong>all-natural</strong> recipe. </p>
       </div>
     </div>
@@ -114,7 +116,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2>Got Dandruff?</h2>
+          <h2 id="complementary" role="complementary">Got Dandruff?</h2>
           <p>Guess what? You don't need to buy Head & Shoulders to fix a flaky scalp. In fact, most anti-dandruff shampoos can make your scalp dependant on their chemical stripping, which is why it never goes away. There are many safer, less expensive alternatives to get rid of dandruff – for good. </p>
           <p><a class="btn btn-default" href="deoderant-recipes.html">Learn more! &raquo;</a></p>
         </div>

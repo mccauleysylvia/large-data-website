@@ -31,7 +31,14 @@
   </head>
 
   <body>
+  <ul class="skiplinks">
+  	<li><a href="#main">Skip to banner</a></li>
+    <li><a href="#main">Skip to primary content</a></li>
+    <li><a href="#complementary">Skip to secondary content</a></li>
+ </ul>
 
+
+<nav role="navigation">
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -52,19 +59,13 @@
                 <li><a href="/essential-oils.html">Chemicals in Deoderant</a></li>
               </ul>
             </li>
-                        <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Tools <b class="caret"></b></a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Oils <b class="caret"></b></a>
               <ul class="dropdown-menu">
-              	<li class="dropdown-header">Oils</li>
                 <li><a href="/essential-oils.html">About Oils</a></li>
                 <li><a href="/essential-oils.html">Carrier Oils</a></li>
                 <li><a href="/essential-oils.html">Essential Oils</a></li>
                 <li><a href="/essential-oils.html">Vegetable Oils</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Other</li>
-                <li><a href="#">Apple Cider Vinegar</a></li>
-                <li><a href="#">Aloe Vera</a></li>
-                <li><a href="#">Raw Honey</a></li>
               </ul>
             </li>
             
@@ -103,10 +104,11 @@
         </div><!--/.navbar-collapse -->
       </div>
     </div>
+ </nav>
     
         <div class="jumbotron">
       <div class="container">
-        <h1>Essential Oils.</h1>
+        <h1 id="banner" role="banner">Essential Oils.</h1>
         <p>An essential oil is a concentrated liquid extracted from plants. An oil is <em>essential</em> in the sense that it carries a distinctive scent, or essence, of the plant. Many of them can be added to recipes as part of a natural skincare routine. They each have different medicinal purposes, and they smell nice too! It is very important to do research before using essential oils, as they can be harmful to your skin if not used properly. </p>
         <p><a class="btn btn-primary btn-lg">Get Started &raquo;</a></p>
       </div>
@@ -121,7 +123,7 @@
         		<img src="images/tea-tree.jpg" class="oil-image" alt="">
         		</div>
         		<div class="media-body">
-        		<h3 class="media-title">Tea Tree Oil</h3>
+        		<h3 class="media-title" id="main" role="main">Tea Tree Oil</h3>
             	<p> Tea tree oil, or melaleuca oil, is an essential oil taken from the leaves of the Melaleuca alternifolia, found in Australia. Tea tree oil is toxic when taken by mouth. It is widely used in low concentrations in cosmetics and skin washes because of its antimicrobial and antiseptic properties. It also can be used as an antifungal to treat skin fungus infections, is a main ingrediant in many natural anti-dandruff shampoos. It is known to be helpful in the treatment of acne.   </p>
         		</div>
         	</div>
@@ -133,7 +135,7 @@
                 <img src="images/lavender.jpg" class="oil-image" alt="">
                 </div>
                 <div class="media-body">
-                    <h3 class="media-title">Lavender Oil</h3>
+                    <h3 class="media-title" id="complementary" role="complementary">Lavender Oil</h3>
                     <p> Lavender oil is an essential oil obtained by distillation from the flower spikes of certain species of lavender. The scent has a calming effect which may aid in relaxation and the reduction of anxiety and stress. Lavender oil can be used as an antiseptic and pain reliever to be applied to minor burns and insect bites and stings, as well as sunburn. It is also said to treat head lice when used in a hair rinse mixture. </p>
                 </div>  
               </div>

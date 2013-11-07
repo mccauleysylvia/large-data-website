@@ -47,6 +47,54 @@ body {
 	 font-size:20px;
 }
 
+.skiplinks {
+margin:0;
+padding:0;
+position:absolute;
+width:100%;
+z-index:3000;
+
+font-size:1rem;
+font-weight:bold;
+list-style-type:none;
+
+}
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	padding: 0 0.75em 1em;
+	position:absolute;
+	top: -10em;
+	
+	background-color: #000;
+	
+	color:#fff;
+	text-decoration:none;
+}
+
+.skiplinks a:focus {
+	top:0;
+}
+
+a,
+a:link,
+a:visited {
+	
+	
+}
+
+a:hover,
+a:active {
+	outline:none;
+}
+
+a:focus {
+/* you must always have outline on the focus state for tabbing */
+	outline:3px solid white;
+}
+
+
 @media (min-width: 55em) {
 body,
  {
