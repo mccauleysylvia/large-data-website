@@ -3,6 +3,9 @@ body {
   padding-bottom: 20px;
 }
 
+.intro {
+	padding-left:0.8em;
+}
 .recipe-image {
 	width:100%;
 }
